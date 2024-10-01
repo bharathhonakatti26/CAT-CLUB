@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    color: #111111;
+}
+
+.bigbox{
+    width: 100%;
+    height: 1300px;
+    
+    background-color: #ded9d7;
+}
+
+.box{
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.header{
+    margin-top: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 3.61111rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.headpara{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 800px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 300px;
+    
+}
+
+.brown{
+    width: 100%;
+    height: 328px;
+    color: #ffffff;
+    background-color: #59504c;
+    position: absolute;
+    top: 490px;
+}
+
+.aboutcat{
+    width: 1140px;;
+    height: 966px;
+    position: absolute;
+    top:280px;
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+}
+
+.cat{
+    height: 650px;
+    width: 350px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.catimg{
+    height: 210px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.cathead{
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    margin: 20px auto 0;
+}
+
+.catpara{
+    text-align: center;
+    width: 300px;
+    font-family: 'poppins';
+    line-height: 1.8;
+    margin: 20px 0 0;
+}
+
+.more{
+    color: black;
+    margin-top: 30px;
+    font-family: 'poppins';
+    letter-spacing: 2px;
+}
+
+.margin-2{
+    margin-top: 150px;
+}
+
+.margin-3{
+    margin-top: 280px;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #333333;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_footer {
+    display: flex;
+    width: 262px;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.imageset:hover {
+    background-color: white;
+    border-radius: 28px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.imageset {
+    width: 40px;
+    height: 40px;
+}
